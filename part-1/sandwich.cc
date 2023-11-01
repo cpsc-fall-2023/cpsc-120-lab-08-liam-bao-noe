@@ -17,7 +17,7 @@ int main(int argc, char* argv[]) {
   std::string bread(arguments.at(2));
   std::string condiments(arguments.at(3));
   std::cout << "Your order:\n"
-            << "A " << protein << "sandwich on " << bread << "with "
+            << "A " << protein << " sandwich on " << bread << " with "
             << condiments << ".\n";
   return 0;
 }
